@@ -13,7 +13,9 @@ origin	git@github.com:jendiamond/railsgirlsla-signup.git (fetch
 
 ---
 
-### Ruby version - 2.5.5
++ Ruby version - 2.5.5
++ Bundler version - 2 (https://devcenter.heroku.com/articles/bundler-version)
+
 
 * System dependencies
 
