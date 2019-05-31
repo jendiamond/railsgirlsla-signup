@@ -1,5 +1,10 @@
 # railsgirlsla-signup
 
+### Contributors
++ Jen Diamond @jendiamond
++ Daniel Uribe
++ Kenneth Lee
+
 ### Deployment:
 https://dashboard.heroku.com/apps/railsgirlsla-signup/deploy/heroku-git
 
