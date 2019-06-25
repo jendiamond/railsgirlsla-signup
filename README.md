@@ -117,3 +117,11 @@ docker-compose run web rake db:create
 ```
 
 That’s it. Your app should now be running on port 3000 on your Docker daemon
+
+## Troubleshooting
+
+### Error loading the 'mysql2' Active Record adapter
+
+1. Make sure you have MySQL installed on your machine. On Mac/Homebrew, use `brew install mysql`.
+2. Run `rake db:create`
+3. Start up the MySQL server by running `mysql.server start` in the terminal
