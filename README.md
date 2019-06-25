@@ -2,8 +2,8 @@
 
 ### Contributors
 + Jen Diamond @jendiamond
-+ Daniel Uribe
-+ Kenneth Lee
++ Daniel Uribe @fancydaniel
++ Kenneth Lee @kennethlee
 
 ### Deployment:
 https://dashboard.heroku.com/apps/railsgirlsla-signup/deploy/heroku-git
@@ -123,5 +123,5 @@ That’s it. Your app should now be running on port 3000 on your Docker daemon
 ### Error loading the 'mysql2' Active Record adapter
 
 1. Make sure you have MySQL installed on your machine. On Mac/Homebrew, use `brew install mysql`.
-2. Run `rake db:create`
+2. Run `rake db:create` and/or `rake db:migrate`
 3. Start up the MySQL server by running `mysql.server start` in the terminal
