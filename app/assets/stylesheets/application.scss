@@ -14,3 +14,41 @@
  *= require_self
  */
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap');
+
+.jumbotron_home {
+  background-color: #BFD6CB !important;
+}
+
+.itim {
+  font-family: "Sanchez", serif;
+  font-size: 6.5em;
+  color: #9a0026;
+}
+
+.border-gray {
+  border: 3px solid #ccc;
+}
+
+.rails_png {
+  margin-top: 15px;
+  width: 125px;
+}
+
+.neg_padding {
+  margin-left: -45px;
+}
+
+.home_header, .home_text {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.home_header {
+  font-size: 3.0em;
+}
+
+.home_text {
+  font-size: 1.3em;
+}
+

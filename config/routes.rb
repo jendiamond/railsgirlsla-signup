@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   get 'static/about'
-  root 'static#faq'
+  get 'static/faq'
+  root 'static#home'
 end
 
