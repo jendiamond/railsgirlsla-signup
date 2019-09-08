@@ -16,6 +16,10 @@ heroku	https://git.heroku.com/railsgirlsla-signup.git (push)
 origin	git@github.com:jendiamond/railsgirlsla-signup.git (fetch
 ```
 
++ rails db:drop
++ rails db:create
++ rails db:migrate
+
 ---
 
 + Ruby version - 2.5.5
@@ -32,9 +36,7 @@ origin	git@github.com:jendiamond/railsgirlsla-signup.git (fetch
 
 ### How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
+* $ `rspec spec`
 
 ---
 
